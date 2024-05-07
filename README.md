@@ -18,6 +18,7 @@ Step 4 : Do repeat Step 2 and Step 3 until no new state present in DFA transitio
 
 Step 5 : Mark the states of DFA which contains final state of NFA as final states of DFA.
 # PROGRAM
+```
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -283,6 +284,7 @@ char *NFA_TABLE[states][symbols + 1];
  Display_DFA(last_index, dfa_states, DFA_TABLE);
  return 0;
 }
+```
 # OUTPUT 
 ![comp1](https://github.com/dyanesh-100/Ex-1-NFA-to-DFA/assets/114641798/9b0a4b84-33ca-4dca-892c-8404f41c778d)
 
